@@ -5,10 +5,10 @@ Supervised Learning Foundations
 
 This project explores supervised learning foundations through a business case focused on **ReCell**, a company in the used electronics market.  
 
-## 🎯 Objective  
+## Objective  
 Build an Ordinary Least Squares (OLS) regression model to predict the **normalized used price** of mobile devices based on product features, condition, and brand.
 
-## 📊 Key Highlights
+## Key Highlights
 - Achieved **R² = 0.84** on training data and **R² = 0.83** on test data  
 - Diagnosed and resolved **multicollinearity** (VIF filtering)  
 - Applied **p-value-based feature selection**  
@@ -18,13 +18,13 @@ Build an Ordinary Least Squares (OLS) regression model to predict the **normaliz
   - Homoscedasticity (Goldfeld-Quandt test)  
 - Final model passed all key assumptions with high generalizability
 
-## 🔍 Skills & Tools  
+## Skills & Tools  
 - Python (`statsmodels`, `sklearn`, `matplotlib`, `seaborn`)  
 - Feature engineering and variable selection  
 - Residual analysis and statistical diagnostics  
 - Model evaluation using RMSE, MAE, MAPE, Adjusted R²  
 
-## 📈 Business Takeaway  
+## Business Takeaway  
 The final model helps ReCell **understand the price drivers** for second-hand smartphones, especially highlighting the importance of:
 - Original retail price (`normalized_new_price`)
 - Camera specs (`main_camera_mp`, `selfie_camera_mp`)
